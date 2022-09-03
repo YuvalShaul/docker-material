@@ -11,8 +11,6 @@
 - Use **man docker-run** to get help about this command
 - Run a container interactivley (example):  
 **docker run -it ubuntu /bin/bash**  
-Explanation:  
-Run the **ubuntu** image interractively, use the command /bin/bash
 - Run a detached container with a name:  
 **docker run --name daemon_dave -d ubuntu /bin/sh -c "while true; do echo hello world; sleep 1; done"**
 - Docker logs:  
@@ -25,6 +23,23 @@ Run the **ubuntu** image interractively, use the command /bin/bash
 **docker ps**  
 Listing ALL containers (stopped containers as well):  
 **docker ps -a**
+- See container processes from the outside:  
+**docker top daemon_dave**
+- See statistics:  
+**docker stats daemon_dave**
+- Run a non-interactive process inside a container (example):  
+**docker exec -d daemon_dave touch /tmp/yuval.dat**
+- Run an interactive process inside a container:  
+**docker exec -t -i daemon_dave /bin/bash**
+- Stop a container:  
+**docker stop daemon_dave**
+- start a container:  
+**docker start daemon_dave**
+- Inspect a container:  
+**docker inspect daemon_dave**
+- Delete a container (should be stopped):  
+**docker rm daemon_dave**
+
 
 
 ## Namespaces
@@ -36,8 +51,4 @@ Listing ALL containers (stopped containers as well):
 **sudo ip netns exec cni-24710481-9f5f-ecca-c095-a90a0f35810d  ip a sh**
 
 ## Images
-
-
-
-
 
