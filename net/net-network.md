@@ -10,4 +10,6 @@
 - List interfaces again:  
 **ip link show**  
 Do you see the difference?
-
+- Delete the new network:  
+**docker network rm \< net id \>**
+- List interfaces again.
