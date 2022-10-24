@@ -10,7 +10,8 @@
   - Includes Docker daemon and cli
 
 ## Installing Docker Engine
-- In most of my courses I install the docker-engine on Ubuntu.
+- In most of my courses I install the docker-engine on Ubuntu.  
+(use [this link](https://github.com/YuvalShaul/docker-material/blob/main/1-basics/infrastructure.md) to create a virtual machine for this)
 - This is the [link to the installaion](https://docs.docker.com/engine/install/ubuntu/).
 
 
