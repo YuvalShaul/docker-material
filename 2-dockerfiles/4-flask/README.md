@@ -2,7 +2,7 @@
 
 ## virtualenv
 
-- [virtualebv](https://virtualenv.pypa.io/en/latest/) is a better version of [venv](https://docs.python.org/3/library/venv.html)
+- [virtualenv](https://virtualenv.pypa.io/en/latest/) is a better version of [venv](https://docs.python.org/3/library/venv.html)
 - Install **virtualenv** as explained [here](https://virtualenv.pypa.io/en/latest/installation.html), or:  
 **sudo apt install python-virtualenv**
 - Create a local virtual environment called myvenv here:  
@@ -25,5 +25,6 @@ or from the IDE
 - run **pip freeze > requirements.txt**  
 (note that we could save this file in git - to really freeze out dependencies versions)
 - Build a docker image in the current directory:  
-**docker build .**
-
+**docker build . -t myflask**
+- Run the container (detached), exposing the port:  
+**docker run -d -p 5000:5000 myflask**
