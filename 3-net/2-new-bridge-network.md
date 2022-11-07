@@ -20,17 +20,16 @@ like this:
 
 ## Networking
 
-- Inspect the bridge network to see what containers are connected to it:  
-**docker network inspect bridge**
-  - you should be able to see an IP gateway for the whole network
-  - you should be able to see an IP address for each container
-- Attach to a container:  
-**docker attach alpine1**
-  - Use **ip address sh** to verify ip addressing
-  - ping the other container ip address
-  - ping google.com
-  - ping the default GW
+- Inspect the bridge and alpine-net networks to see what containers are connected to each one:  
+**docker network inspect bridge**  
+**docker network inspect alpine-net**
+- Attach to alpine3 container:  
+**docker attach alpine3**
+  - Use **ip address sh** to verify 2 ip addresses
+  - ping the other containers ip addresses
 
 ## Cleanup
 
 - Stop and remove containers.
+- delete alpine-net network:  
+**docker network rm alpine-net**
