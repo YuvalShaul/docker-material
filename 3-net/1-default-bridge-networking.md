@@ -8,7 +8,7 @@ Based on [this walkthrough](https://docs.docker.com/network/network-tutorial-sta
 You should see the default bridge network (along with others).
 - Run 2 new containers, interactively but detached for now  
 (**ash** is the default shell in alpine):  
-**docker run -dit --name alpine1 alpine ash**
+**docker run -dit --name alpine1 alpine ash**  
 **docker run -dit --name alpine2 alpine ash**
 
 ## Networking
