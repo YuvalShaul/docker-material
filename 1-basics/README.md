@@ -1,7 +1,7 @@
 # Docker Basics
 
 ## Docker Versions
-- [Docker desktop](https://docs.docker.com/desktop/)
+- [Docker desktop](https://docs.docker.com/desktop/) (don't install)
   - This is a commercial tools for Mac/Linux/Windows.
   - Needs a subscription for organizations with more than 250 employees.
   - It installs many tools, including graphical tools.
@@ -10,9 +10,9 @@
   - Includes Docker daemon and cli
 
 ## Installing Docker Engine
-- In most of my courses I install the docker-engine on Ubuntu.  
-(use [this link](https://github.com/YuvalShaul/docker-material/blob/main/1-basics/infrastructure.md) to create a virtual machine for this)
-- This is the [link to the installaion](https://docs.docker.com/engine/install/ubuntu/).
+- In most of my courses I install the docker-engine on Ubuntu.
+- Use [this link](https://github.com/YuvalShaul/docker-material/blob/main/1-basics/infrastructure.md) to create a virtual machine for Ubuntu 22.04
+- This is the [link to the docker engine installaion](https://docs.docker.com/engine/install/ubuntu/).
 
 
 ## Experiment with docker
