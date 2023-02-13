@@ -18,7 +18,7 @@ Example:
 We should instead make sure that all the needed binary is contained within the executable file:  
 
 ```
-=> gcc -o hello **--** static hellodocker.c 
+=> gcc -o hello **--static** hellodocker.c 
 => ldd hello
 	not a dynamic executable
 => 
