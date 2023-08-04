@@ -8,6 +8,6 @@
 **ip address show**
 - Verify that these are exactly the interfaces/ip addresses of the host.
 
-##Cleanup
+## Cleanup
 
 - stop and delete the container
