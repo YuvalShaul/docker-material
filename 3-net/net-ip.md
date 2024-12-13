@@ -21,6 +21,7 @@ Inside each client container, first install tools:
 ```
 apt update
 apt install -y iputils-ping curl dnsutils
+apt install iproute2
 ```
 
 ### Test
