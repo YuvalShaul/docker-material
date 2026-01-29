@@ -5,7 +5,7 @@ Let's demonstrate some IP and DNS capabilities of containers.
 
 First, let's create a custom network:
 ```
-bashCopydocker network create mynet
+docker network create mynet
 ```
 
 Now let's create a few containers with different names:
