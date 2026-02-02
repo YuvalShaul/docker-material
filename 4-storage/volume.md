@@ -14,7 +14,7 @@
 
 - Mount the named volume on first container:  
 **docker run -it --name alpine1 -v vol1:/volpath1 alpine**
-- cd (inside the container) into the /extvol1, create a file (e.g: msg.txt) with some content:  
+- cd (inside the container) into the /volpath1, create a file (e.g: msg.txt) with some content:  
 **echo hello > msg.txt**
 - Exit the container, and view the file:  
 **sudo cat /var/lib/docker/volumes/vol1/_data/msg.txt**  
