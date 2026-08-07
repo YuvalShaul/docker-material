@@ -4,7 +4,7 @@
 **docker run -it  ubuntu:12.04 /bin/bash**  
 - **NOTE THAT THIS IS NOT RUNNING A VIRTUAL MACHINE OR ANY OPERATING SYSTEM!**  
 **WE ARE RUNNING A CONTAINER, WITH A SINGLE PROCESS INSIDE - BASH.**
-- Ubuntu 10.04 (Lucid Lynx) is an image from April 26 2012.  
+- Ubuntu 10.04 (Precise  Pangolin) is an image from April 26 2012.  
 Let's compare bash of that time to the one in a current release (I am using 22.04 now - Feb 2023):  
 **ls -l /bin/bash**  
 (you should run this in both places)
