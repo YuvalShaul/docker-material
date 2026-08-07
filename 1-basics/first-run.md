@@ -8,7 +8,7 @@
 Let's compare bash of that time to the one in a current release (I am using 22.04 now - Feb 2023):  
 **ls -l /bin/bash**  
 (you should run this in both places)
-- try to run **vin** editor (not the older **vi**)
+- try to run **vim** editor (not the older **vi**)
 - Now install it:  
 **apt-get update**  
 **apt-get install -y vim**  
