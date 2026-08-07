@@ -1,7 +1,7 @@
 # docker first run
 
 - Start by running a very old Ubuntu **docker** image:  
-**docker run -it  ubuntu:10.04 /bin/bash**  
+**docker run -it  ubuntu:12.04 /bin/bash**  
 - **NOTE THAT THIS IS NOT RUNNING A VIRTUAL MACHINE OR ANY OPERATING SYSTEM!**  
 **WE ARE RUNNING A CONTAINER, WITH A SINGLE PROCESS INSIDE - BASH.**
 - Ubuntu 10.04 (Lucid Lynx) is an image from 29 April 2010.  
